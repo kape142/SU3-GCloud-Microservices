@@ -1,0 +1,18 @@
+dispatch:
+  - url: "*/products"
+    service: productservice
+
+  - url: "*/products/*"
+    service: productservice
+
+  - url: "*/shoppingcart"
+    service: shoppingcartservice
+
+  - url: "*/shoppingcart/*"
+    service: shoppingcartservice
+
+  - url: "*/delivery"
+    service: deliveryservice
+
+  - url: "*/delivery/*"
+    service: deliveryservice
